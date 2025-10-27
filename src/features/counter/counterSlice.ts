@@ -9,6 +9,7 @@ const initialState: CounterState = {
   value: 0,
 };
 
+//Reducer how to do it
 const counterSlice = createSlice({
   name: "counter",
   initialState,
